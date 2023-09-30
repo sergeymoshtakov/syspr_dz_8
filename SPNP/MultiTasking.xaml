@@ -1,0 +1,22 @@
+﻿<Window x:Class="SPNP.MultiTasking"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SPNP"
+        mc:Ignorable="d"
+        Title="MultiTasking" Height="450" Width="300">
+    <StackPanel Orientation="Vertical">
+        <Label Content="Multitasking"/>
+        <Button x:Name="DemoButton1" Content="Demo 1" Click="DemoButton1_Click" Margin="0 10"/>
+        <Button x:Name="DemoButton2" Content="Demo 2" Click="DemoButton2_Click" Margin="0 10"/>
+        <TextBlock Text="" x:Name="LogTextBox" Height="100" Margin="0 10"/>
+        <StackPanel Orientation="Vertical">
+            <Button Content="sequential" x:Name="SequentialButton" Click="SequentialButton_Click" Margin="0 10" />
+            <Button Content="parallel" x:Name="ParallelButton" Click="ParallelButton_Click" Margin="0 10" />
+            <ProgressBar x:Name="ProgressBar1" Height="20" Margin="0 10"/>
+            <ProgressBar x:Name="ProgressBar2" Height="20" Margin="0 10"/>
+            <ProgressBar x:Name="ProgressBar3" Height="20" Margin="0 10"/>
+        </StackPanel>        
+    </StackPanel>
+</Window>

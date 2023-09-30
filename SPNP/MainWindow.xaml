@@ -1,0 +1,21 @@
+﻿<Window x:Class="SPNP.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SPNP"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="300">
+    <StackPanel Orientation="Vertical">
+        <Label Content="Sistem programming"
+               HorizontalAlignment="Center"
+               FontSize="18"
+               FontWeight="Bold"/>
+        <Button Content="Multithreading" Margin="20 7" x:Name="ThreadingButton" Click="ThreadingButton_Click"/>
+        <Button Content="Synchronisation" Margin="20 7" x:Name="SynchronisationButton" Click="SynchronisationButton_Click"/>
+        <Button Content="Multitasking" Margin="20 7" x:Name="MultitaskingButton" Click="MultitaskingButton_Click"/>
+        <Button Content="Canceling" Margin="20 7" x:Name="CancelingButton" Click="CancelingButton_Click"/>
+        <Button Content="Processes" Margin="20 7" x:Name="ProcessButton" Click="ProcessButton_Click"/>
+        <Button Content="Chaining" Margin="20 7" x:Name="CHainingButton" Click="CHainingButton_Click"/>
+    </StackPanel>
+</Window>

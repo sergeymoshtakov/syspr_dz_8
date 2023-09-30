@@ -1,0 +1,15 @@
+﻿Threading
+Part. One mnogopotochnost
+Vstup
+- synchrone prodramuvana
+Vykonuetsa poslidovno. 
+- asynchrone programuvama
+peredbachae ne poslidovne vykonane koly za odeyn promizhok chasu vykonuetsa dekilka instrukciy
+
+asynchronist realizuetsa cherez
+- bagatozadachnist (riven movy abo platformy z objectamy task(future in java, coroutine in python, promise in javascript))
+- bagatopotochnist os level, nadanya resursiv typu thread
+- bagatoprocesnist os level, process > thread, okremi zapuski program
+- merezhevi technologii (grid- network technologies)
+
+bagatopotochnist
