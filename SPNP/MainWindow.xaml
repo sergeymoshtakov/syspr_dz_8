@@ -17,5 +17,6 @@
         <Button Content="Canceling" Margin="20 7" x:Name="CancelingButton" Click="CancelingButton_Click"/>
         <Button Content="Processes" Margin="20 7" x:Name="ProcessButton" Click="ProcessButton_Click"/>
         <Button Content="Chaining" Margin="20 7" x:Name="CHainingButton" Click="CHainingButton_Click"/>
+        <Button Content="DLL" Margin="20 7" x:Name="DLLWindow" Click="DLLWindow_Click"/>
     </StackPanel>
 </Window>
